@@ -45,6 +45,7 @@ class HttpManager {
         // 设置token
         var headers = options.headers;
         var token = _getAuthorizationHeader();
+        print("get token:$token");
         if (!(null == token || token == "")) {
           headers[HttpHeaders.authorizationHeader] = token;
         }
