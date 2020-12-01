@@ -2,7 +2,7 @@ name: easydio
 description: Easy to use dio.
 version: 0.0.1
 author: lixiaoming
-homepage:
+homepage: https://github.com/chenler/flutter_packages/tree/master/easydio
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

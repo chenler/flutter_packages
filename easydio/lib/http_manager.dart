@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-typedef OnErrorCallback = dynamic Function(String msg, int code);
+typedef OnErrorCallback =  Function(String msg, int code);
 typedef GetAuthorizationHeader = String Function();
 
 class HttpManager {
